@@ -1,0 +1,970 @@
+/* =====================================================
+   GLOBAL
+   ===================================================== */
+
+
+.sjf-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 28px 32px 60px;
+  background: #f8fafc;
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.sjf-header {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 24px;
+  box-sizing: border-box;
+}
+
+.sjf-header-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.sjf-back-button {
+  padding: 9px 16px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: #334155;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.sjf-back-button:hover {
+  background: #f1f5f9;
+}
+
+.sjf-os-badge {
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  background: #dbeafe;
+  color: #1d4ed8;
+
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 0.5px;
+}
+
+.sjf-header h1 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 34px;
+  font-weight: 800;
+
+  line-height: 1.2;
+}
+
+.sjf-header > p {
+  margin: 10px 0 0;
+
+  color: #64748b;
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+/* =====================================================
+   BADGE
+   ===================================================== */
+
+.sjf-badge {
+  display: inline-block;
+
+  padding: 8px 14px;
+  margin-bottom: 14px;
+
+  border-radius: 20px;
+
+  background: #eef4ff;
+  color: #2563eb;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+/* =====================================================
+   HEADER TITLE
+   ===================================================== */
+
+.sjf-header h1 {
+  margin: 0;
+
+  font-size: 38px;
+  line-height: 1.2;
+
+  color: #0f172a;
+}
+
+.sjf-header p {
+  max-width: 800px;
+
+  margin-top: 12px;
+
+  line-height: 1.7;
+
+  color: #64748b;
+
+  font-size: 16px;
+}
+
+
+/* =====================================================
+   CARD
+   ===================================================== */
+
+.sjf-card {
+  max-width: 1200px;
+
+  margin: 22px auto;
+  padding: 28px;
+
+  border: 1px solid #dbe3ef;
+  border-radius: 18px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+
+/* =====================================================
+   SECTION TITLE
+   ===================================================== */
+
+.section-title {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.section-title > span {
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  border-radius: 12px;
+
+  background: #eef4ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 21px;
+}
+
+.section-title h2 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 24px;
+}
+
+.section-title p {
+  margin: 5px 0 0;
+
+  color: #64748b;
+}
+
+
+/* =====================================================
+   THEORY
+   ===================================================== */
+
+.theory-text {
+  color: #475569;
+
+  line-height: 1.7;
+
+  font-size: 15px;
+}
+
+.theory-text p {
+  margin: 0 0 12px;
+}
+
+.theory-text strong {
+  color: #0f172a;
+}
+
+
+/* =====================================================
+   THEORY GRID
+   ===================================================== */
+
+.theory-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 14px;
+
+  margin-top: 22px;
+}
+
+.theory-box {
+  padding: 18px;
+
+  border: 1px solid #dbe7ff;
+  border-radius: 14px;
+
+  background: #f8faff;
+}
+
+.theory-box h3 {
+  margin: 0 0 8px;
+
+  color: #2563eb;
+
+  font-size: 16px;
+}
+
+.theory-box p {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+
+/* =====================================================
+   FORMULA
+   ===================================================== */
+
+.formula-box {
+  margin-top: 20px;
+  padding: 18px;
+
+  border: 1px dashed #cbd5e1;
+  border-radius: 14px;
+
+  background: #f8fafc;
+}
+
+.formula-box strong {
+  color: #0f172a;
+}
+
+.formula-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin-top: 12px;
+}
+
+.formula-list span {
+  padding: 9px 13px;
+
+  border-radius: 8px;
+
+  background: #eef4ff;
+  color: #2563eb;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* =====================================================
+   INPUT AREA
+   ===================================================== */
+
+.input-area {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr auto auto;
+
+  gap: 14px;
+
+  align-items: end;
+}
+
+.input-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.input-group label {
+  color: #334155;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.input-group input {
+  width: 100%;
+  height: 48px;
+
+  padding: 0 14px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+
+  outline: none;
+
+  background: #ffffff;
+  color: #0f172a;
+
+  font-size: 15px;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+
+/* =====================================================
+   BUTTONS
+   ===================================================== */
+
+.add-btn,
+.reset-btn {
+  height: 48px;
+
+  padding: 0 18px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.add-btn {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.add-btn:hover {
+  background: #1d4ed8;
+}
+
+.reset-btn {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.reset-btn:hover {
+  background: #cbd5e1;
+}
+
+
+/* =====================================================
+   PROCESS QUEUE
+   ===================================================== */
+
+.process-chips {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 12px;
+}
+
+.process-chip {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 12px;
+
+  border: 1px solid #dbe7ff;
+  border-radius: 10px;
+
+  background: #f8faff;
+}
+
+.process-chip span {
+  color: #2563eb;
+
+  font-weight: 800;
+}
+
+.process-chip small {
+  color: #64748b;
+}
+
+.process-chip button {
+  width: 24px;
+  height: 24px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #e2e8f0;
+  color: #334155;
+
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.process-chip button:hover {
+  background: #cbd5e1;
+}
+
+
+/* =====================================================
+   TABLE
+   ===================================================== */
+
+.table-wrapper {
+  width: 100%;
+
+  overflow-x: auto;
+}
+
+.sjf-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+}
+
+.sjf-table th {
+  padding: 15px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  text-align: center;
+
+  font-size: 14px;
+}
+
+.sjf-table td {
+  padding: 15px;
+
+  border-bottom: 1px solid #e2e8f0;
+
+  text-align: center;
+
+  color: #475569;
+}
+
+.sjf-table tbody tr:hover {
+  background: #f8faff;
+}
+
+.process-cell {
+  color: #2563eb !important;
+
+  font-weight: 800;
+}
+
+
+/* =====================================================
+   AVERAGE
+   ===================================================== */
+
+.average-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+
+  margin-top: 20px;
+}
+
+.average-box {
+  padding: 20px;
+
+  border: 1px solid #dbe7ff;
+  border-radius: 14px;
+
+  background: #f8faff;
+}
+
+.average-box span {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 14px;
+}
+
+.average-box strong {
+  display: block;
+
+  margin-top: 8px;
+
+  color: #2563eb;
+
+  font-size: 30px;
+}
+
+.average-box small {
+  color: #94a3b8;
+}
+
+
+/* =====================================================
+   GANTT CARD
+   ===================================================== */
+
+.gantt-card {
+  overflow: hidden;
+}
+
+
+/* =====================================================
+   GANTT SCROLL
+   ===================================================== */
+
+.gantt-scroll {
+  width: 100%;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  padding-bottom: 4px;
+}
+
+
+/* =====================================================
+   GANTT WRAPPER
+   ===================================================== */
+
+.gantt-wrapper {
+  width: 100%;
+
+  min-width: 500px;
+
+  padding: 8px 2px 20px;
+}
+
+
+/* =====================================================
+   TOP PROCESS LABELS
+   ===================================================== */
+
+.gantt-label-row {
+  width: 100%;
+
+  display: grid;
+
+  height: 38px;
+
+  align-items: center;
+}
+
+.gantt-top-label {
+  min-width: 0;
+
+  text-align: center;
+
+  color: #0f172a;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =====================================================
+   GANTT CHART
+
+   IMPORTANT:
+   Every process gets EXACTLY equal width.
+
+   Example:
+   3 processes = 33.33% each
+   4 processes = 25% each
+   5 processes = 20% each
+   ===================================================== */
+
+.gantt-chart {
+  width: 100%;
+  height: 90px;
+
+  display: grid;
+
+  overflow: hidden;
+
+  border: 2px solid #2563eb;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+}
+
+
+/* =====================================================
+   GANTT BLOCK
+
+   ALL BLOCKS SAME WIDTH
+   ALL BLOCKS SAME HEIGHT
+   ===================================================== */
+
+.gantt-block {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  color: #ffffff;
+
+  border-right: 2px solid #ffffff;
+
+  overflow: hidden;
+}
+
+.gantt-block:last-child {
+  border-right: none;
+}
+
+
+/* =====================================================
+   PROCESS NAME INSIDE BLOCK
+   ===================================================== */
+
+.gantt-block strong {
+  max-width: 90%;
+
+  color: #ffffff;
+
+  font-size: 17px;
+  font-weight: 800;
+
+  line-height: 1;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =====================================================
+   BURST TIME INSIDE BLOCK
+   ===================================================== */
+
+.gantt-block span {
+  margin-top: 7px;
+
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+
+/* =====================================================
+   GANTT COLORS
+
+   Same FCFS / RR style
+   ===================================================== */
+
+.gantt-blue {
+  background: #2563eb;
+}
+
+.gantt-dark-blue {
+  background: #1d4ed8;
+}
+
+.gantt-light-blue {
+  background: #3b82f6;
+}
+
+
+/* =====================================================
+   TIME SCALE CONTAINER
+
+   This is IMPORTANT.
+
+   It has the exact same width as gantt-chart.
+
+   Therefore:
+   0       divider      divider      final
+   |          |            |           |
+   0          1            5           10
+
+   values stay exactly below the divider.
+   ===================================================== */
+
+.gantt-times {
+  width: 100%;
+
+  height: 42px;
+
+  position: relative;
+}
+
+
+/* =====================================================
+   TIME VALUE
+   ===================================================== */
+
+.gantt-time {
+  position: absolute;
+
+  top: 10px;
+
+  color: #475569;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  line-height: 1;
+
+  white-space: nowrap;
+
+  z-index: 10;
+}
+
+
+/* =====================================================
+   SMALL VERTICAL MARKER ABOVE TIME
+
+   This marker connects the time
+   with the Gantt chart divider.
+   ===================================================== */
+
+.gantt-time::before {
+  content: "";
+
+  position: absolute;
+
+  top: -10px;
+
+  left: 50%;
+
+  width: 1px;
+  height: 8px;
+
+  background: #94a3b8;
+}
+
+
+/* =====================================================
+   START TIME
+
+   Exact left edge of Gantt.
+   ===================================================== */
+
+.start-time {
+  left: 0;
+
+  transform: translateX(0);
+}
+
+.start-time::before {
+  left: 0;
+}
+
+
+/* =====================================================
+   MIDDLE COMPLETION TIMES
+
+   Exact center of divider.
+   ===================================================== */
+
+.boundary-time {
+  transform: translateX(-50%);
+}
+
+
+/* =====================================================
+   FINAL COMPLETION TIME
+
+   Exact right edge of Gantt.
+   ===================================================== */
+
+.final-time {
+  left: auto;
+  right: 0;
+
+  transform: translateX(0);
+}
+
+.final-time::before {
+  left: auto;
+  right: 0;
+}
+
+
+/* =====================================================
+   EMPTY STATE
+   ===================================================== */
+
+.empty-state {
+  max-width: 1200px;
+
+  margin: 22px auto;
+  padding: 55px 20px;
+
+  text-align: center;
+
+  border: 1px dashed #cbd5e1;
+  border-radius: 18px;
+
+  background: #ffffff;
+}
+
+.empty-icon {
+  font-size: 45px;
+}
+
+.empty-state h3 {
+  margin: 15px 0 8px;
+
+  color: #0f172a;
+}
+
+.empty-state p {
+  margin: 0;
+
+  color: #64748b;
+}
+
+
+/* =====================================================
+   TABLET
+   ===================================================== */
+
+@media (max-width: 900px) {
+
+  .theory-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .input-area {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .add-btn,
+  .reset-btn {
+    width: 100%;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 600px) {
+
+  .sjf-page {
+    padding: 25px 15px;
+  }
+
+  .sjf-header h1 {
+    font-size: 29px;
+  }
+
+  .sjf-card {
+    padding: 20px;
+  }
+
+  .theory-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .input-area {
+    grid-template-columns: 1fr;
+  }
+
+  .average-container {
+    grid-template-columns: 1fr;
+  }
+
+  /*
+     Keep Gantt wide on mobile
+     so time values remain aligned.
+  */
+
+  .gantt-wrapper {
+    min-width: 600px;
+  }
+
+  .gantt-chart {
+    height: 90px;
+  }
+
+  .gantt-block {
+    height: 90px;
+  }
+
+  .gantt-block strong {
+    font-size: 14px;
+  }
+
+  .gantt-block span {
+    font-size: 10px;
+  }
+
+  .gantt-top-label {
+    font-size: 12px;
+  }
+
+  .gantt-time {
+    font-size: 11px;
+  }
+}
